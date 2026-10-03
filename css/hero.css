@@ -1,19 +1,17 @@
 .hero {
-  padding-bottom: 188px;
-  padding-top: 188px;
-  max-width: 1440px;
+  max-width: 320px;
+  max-height: 432px;
   margin: 0 auto;
   background-color: #2e2f42;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/hero-bg.jpg");
+    url("../images/mobi-hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .hero .container {
   display: flex;
-  gap: 48px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -23,12 +21,12 @@
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   color: #fff;
-  width: 496px;
-  margin: 0 331px;
+  max-width: 320px;
+  margin: 72px 52px;
 }
 .btn {
   background-color: #4d5ae5;
@@ -39,6 +37,7 @@
   justify-content: center;
   border-radius: 4px;
   padding: 16px 32px;
+  margin-bottom: 72px;
   transition: background-color 250ms;
 }
 .btn:hover,
