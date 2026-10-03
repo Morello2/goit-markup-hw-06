@@ -23,6 +23,7 @@
 .portfolio-item {
   box-shadow: none;
   transition: box-shadow 250ms;
+  margin: 0 auto;
 }
 .portfolio-item:hover {
   box-shadow:
@@ -77,7 +78,8 @@
 }
 @media (min-width: 768px) {
   .portfolio {
-    max-width: 768px;
+    max-width: 1158px;
+    min-width: 768px;
   }
   .portfolio .container {
     padding: 0 16px;

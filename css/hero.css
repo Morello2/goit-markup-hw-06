@@ -43,3 +43,20 @@
 .btn:focus {
   background-color: #404bbf;
 }
+@media (min-width: 768px) {
+  .hero {
+    max-width: 1158px;
+    min-width: 768px;
+    height: 600px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/mobi-hero-bg.jpg");
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+    max-width: 496px;
+  }
+}

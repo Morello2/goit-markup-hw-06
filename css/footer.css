@@ -97,7 +97,8 @@
 }
 @media (min-width: 768px) {
   .footer {
-    max-width: 768px;
+    max-width: 1158px;
+    min-width: 768px;
   }
   .footer .container {
     display: flex;

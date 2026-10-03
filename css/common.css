@@ -122,6 +122,7 @@ address {
 }
 @media (min-width: 768px) {
   body {
-    max-width: 768px;
+    max-width: 1158px;
+    min-width: 768px;
   }
 }
