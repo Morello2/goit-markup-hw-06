@@ -1,6 +1,8 @@
 .portfolio {
   color: #2e2f42;
   padding: 96px 0;
+  max-width: 768px;
+  min-width: 320px;
 }
 .portfolio .container {
   padding: 0;
@@ -72,4 +74,18 @@
 }
 .portfolio-text {
   color: #434455;
+}
+@media (min-width: 768px) {
+  .portfolio {
+    max-width: 768px;
+  }
+  .portfolio .container {
+    padding: 0 16px;
+  }
+  .portfolio-list {
+    row-gap: 72px;
+  }
+  .portfolio-img {
+    max-width: 356px;
+  }
 }

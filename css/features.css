@@ -7,6 +7,8 @@
 }
 .features {
   padding: 96px 0;
+  max-width: 768px;
+  min-width: 320px;
 }
 
 .features-list {
@@ -18,7 +20,7 @@
 .features-item {
   display: flex;
   flex-direction: column;
-  width: 264px;
+  /*width: 264px;*/
   gap: 8px;
 }
 .feature-text {
@@ -39,4 +41,19 @@
   position: absolute;
   top: 24px;
   left: 100px;
+}
+@media (min-width: 768px) {
+  .features {
+    max-width: 768px;
+  }
+  .features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .features-item {
+    max-width: 356px;
+  }
 }
