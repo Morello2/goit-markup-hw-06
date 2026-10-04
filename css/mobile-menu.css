@@ -1,8 +1,8 @@
 .mobil {
   position: fixed;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
   top: 0;
   left: 0;
   background-color: #fff;
@@ -16,7 +16,7 @@
   margin: auto auto;
   padding: 72px 16px 40px;
   width: 320px;
-  height: 640px;
+  height: 100%;
   background-color: #fff;
   justify-content: space-between;
 }
@@ -25,6 +25,7 @@
 .mobi-nav {
 }
 .mobi-nav-list {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -58,6 +59,7 @@
 .mobi-address-item {
 }
 .mobi-address-link {
+  color: #2e2f42;
 }
 .mobi-links {
   display: flex;
@@ -68,9 +70,9 @@
   color: #4d5ae5;
 }
 .is-open-mobil {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 @media (min-width: 768px) {
   .is-open-mobil {

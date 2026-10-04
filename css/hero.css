@@ -60,6 +60,7 @@
 @media (min-width: 1158px) {
   .hero {
     max-width: 1440px;
+    margin: 0 auto;
   }
   .hero .container {
     gap: 48px;

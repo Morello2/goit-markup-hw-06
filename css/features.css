@@ -60,6 +60,9 @@
   .features-item {
     max-width: 356px;
   }
+  .feature-caption {
+    text-align: left;
+  }
 }
 @media (min-width: 1158px) {
   .features .container {

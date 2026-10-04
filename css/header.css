@@ -71,6 +71,8 @@
   transition: color 250ms;
 }
 .address-list {
+  display: none;
+  opacity: 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -109,6 +111,9 @@
     pointer-events: all;
     max-width: 768px;
   }
+  .address-list {
+    display: flex;
+  }
   .address-link {
     display: flex;
     opacity: 1;
@@ -132,9 +137,9 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 15px;
+    padding: 24px 0;
   }
   .nav {
-    margin-left: 120px;
+    margin-left: 76px;
   }
 }

@@ -34,7 +34,7 @@ address {
   font-style: normal;
 }
 .container {
-  /*width: 320px;*/
+  width: 320px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -129,7 +129,7 @@ address {
 @media (min-width: 1158px) {
   .container {
     width: 1158px;
-    margin: 120px 0;
+    margin: 120px auto;
     padding: 0 15px;
   }
 }
