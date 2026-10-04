@@ -2,7 +2,7 @@
   color: #2e2f42;
 }
 .portfolio .container {
-  padding: 96px 0;
+  padding: 96px 16px;
   max-width: 768px;
   min-width: 320px;
 }
@@ -15,15 +15,13 @@
 }
 .portfolio-list {
   display: flex;
-  row-gap: 48px;
-  column-gap: 24px;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 .portfolio-item {
   box-shadow: none;
   transition: box-shadow 250ms;
-  /*margin: 0 auto;*/
+  margin: 0 auto;
 }
 .portfolio-item:hover {
   box-shadow:
@@ -85,6 +83,9 @@
     padding: 96px 16px;
   }
   .portfolio-list {
+    flex-direction: row;
+    column-gap: 24px;
+    flex-wrap: wrap;
     row-gap: 72px;
   }
   .portfolio-img {

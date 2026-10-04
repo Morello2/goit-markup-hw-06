@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   gap: 72px;
-  padding: 0 auto;
 }
 
 .features-item {
@@ -29,6 +28,7 @@
   font-weight: 500;
 }
 .features-back {
+  display: none;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -71,7 +71,7 @@
     flex-direction: column;
     /*position: relative;*/
     width: 264px;
-    gap: 24px;
+    gap: 8px;
   }
   .features-list {
     flex-direction: row;
@@ -81,8 +81,21 @@
   }
 
   .features-back {
+    display: flex;
     opacity: 1;
     visibility: visible;
     pointer-events: all;
+  }
+  .feature-caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  .feature-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
