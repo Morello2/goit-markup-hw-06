@@ -7,6 +7,7 @@
   min-width: 320px;
   max-height: 56px;
   border-bottom: 1px solid #e7e9fc;
+  margin: 0;
 }
 .logo {
   padding: 16px;
@@ -60,14 +61,18 @@
   opacity: none;
   visibility: hidden;
   pointer-events: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
   transition: color 250ms;
 }
 .address-list {
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 0;
 }
 
 .address-link:hover,
@@ -85,7 +90,12 @@
 }
 @media (min-width: 768px) {
   .header .container {
-    max-width: 768px;
+    max-width: 100%;
+    max-height: 72px;
+    margin: 0 auto;
+  }
+  .logo {
+    padding: 24px 16px;
   }
   .header-table-icon {
     opacity: 0;
@@ -102,5 +112,24 @@
     opacity: 1;
     visibility: visible;
     pointer-events: all;
+  }
+}
+@media (min-width: 1158px) {
+  .header .container {
+    max-width: 1158px;
+    justify-content: center;
+  }
+  .address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: block;
+    transition: color 250ms;
+  }
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 24px 15px;
   }
 }

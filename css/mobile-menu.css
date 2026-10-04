@@ -69,3 +69,10 @@
   visibility: visible;
   pointer-events: all;
 }
+@media (max-width: 768px) {
+  .mobil .is-open {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
