@@ -3,8 +3,8 @@
 }
 .portfolio .container {
   padding: 96px 16px;
-  max-width: 768px;
-  min-width: 320px;
+  max-width: 320px;
+  width: 100%;
 }
 .portfolio-title {
   font-weight: 700;
@@ -32,7 +32,7 @@
 }
 .portfolio-img {
   display: block;
-  max-width: 320px;
+  width: 100%;
   margin: 0;
 }
 .portfolio-overlay {
@@ -90,7 +90,7 @@
     row-gap: 72px;
   }
   .portfolio-item {
-    width: calc((100% - 24px - 32px) / 2);
+    width: calc((100% - 24px) / 2);
   }
   .portfolio-img {
     max-width: 100%;
@@ -113,5 +113,8 @@
   .portfolio-ov-tx {
     width: 360px;
     font-size: 16px;
+  }
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
   }
 }

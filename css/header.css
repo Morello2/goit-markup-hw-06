@@ -67,13 +67,11 @@
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
-  display: block;
   transition: color 250ms;
 }
 .address-list {
   display: none;
   opacity: 0;
-  display: flex;
   flex-direction: column;
   gap: 12px;
   padding: 16px 0;
@@ -116,7 +114,7 @@
     opacity: 1;
   }
   .address-link {
-    display: flex;
+    display: block;
     opacity: 1;
     visibility: visible;
     pointer-events: all;
